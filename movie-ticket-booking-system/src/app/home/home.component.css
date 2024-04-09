@@ -1,0 +1,77 @@
+/* home.component.css */
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  header {
+    background-color: #8e81f3;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main {
+    padding: 20px 0;
+  }
+  
+  .hero {
+    background-color: #c0809b;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .buttons a {
+    display: inline-block;
+    background-color: #b5aee9;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 30px; /* Add margin between buttons */
+    display: flex; /* Enables flexbox for better gap control */
+  justify-content: space-between;
+  }
+  
+  
+
+  
+  .buttons a:hover {
+    background-color: #ebe4ee;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  
+  .feature {
+    flex: 1;
+    background-color: #badc58;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .feature h3 {
+    margin-top: 0;
+  }
+  
+  footer {
+    background-color: #2d3436;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  

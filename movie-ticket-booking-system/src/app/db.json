@@ -1,0 +1,83 @@
+{
+    "register": [
+      {
+        "username": "user1",
+        "password": "password1",
+        "confirmpassword": "password1"
+      },
+      {
+        "username": "user2",
+        "password": "password2",
+        "confirmpassword": "password2"
+      }
+    ],
+    "login": [
+      {
+        "username": "user1",
+        "password": "password1"
+      },
+      {
+        "username": "user2",
+        "password": "password2"
+      }
+    ],
+    "movies": [
+      {
+        "id": 1,
+        "title": "premalu",
+        "genre": "Comedy/Romance",
+        "director": "Girish A.D.",
+        "releaseDate": "9 February 2024 (India)",
+        "description": "Premalu is a 2024 Indian Malayalam-language romantic comedy film co-written and directed by Girish A. D. The film stars Naslen K. Gafoor and Mamitha Baiju in the lead roles.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ8q-PKmDQGgFStz0K-Aq0DhYzw4McJSjafKRl23JC0w&s"
+      },
+      {
+        "id": 2,
+        "title": "Maari 2",
+        "genre": " Action/Comedy",
+        "director": "Balaji Mohan",
+        "releaseDate": " 21 December 2018 (India)",
+        "description": "Maari is a fun-loving gangster who is romantically pursued by Araathu Aanandi, an autorickshaw driver. One day, a villain with a grudge against Maari breaks out of prison and seeks revenge.",
+        "image": "https://c.saavncdn.com/276/Maari-2-Tamil-2018-20230815210409-500x500.jpg"
+      }
+    ],
+    "theatres": [
+      {
+        "id": 1,
+        "name": "Inox",
+        "location": "Hyderabad",
+        "movieId": 1
+      },
+      {
+        "id": 2,
+        "name": "PVR",
+        "location": "Hyderabad",
+        "movieId": 2
+      }
+    ],
+    "seats": [
+      {
+        "id": 1,
+        "row": "A",
+        "number": 1,
+        "status": "available"
+      },
+      {
+        "id": 2,
+        "row": "B",
+        "number": 2,
+        "status": "booked"
+      }
+    ],
+    "bookings": [
+      {
+        "id": 1,
+        "movieId": 1,
+        "theatreId": 1,
+        "userId": 1,
+        "seats": [1, 2],
+        "totalPrice": 600
+      }
+    ]
+  }
+  

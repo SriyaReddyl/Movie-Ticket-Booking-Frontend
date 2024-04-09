@@ -1,0 +1,45 @@
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  width: 250px; /* Adjust width as needed */
+  margin: 10px; /* Adjust margin as needed */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Prevent overflowing content */
+}
+
+.movie-card {
+  float: left; /* Make each card float left */
+  width: 48%; /* Set the width of each card (adjust as needed) */
+  margin: 10px; /* Add margin between cards */
+}
+
+
+.movie-poster {
+  width: 100%; /* Fill the card width */
+  height: 200px; /* Adjust height as needed */
+  object-fit: cover; /* Scale image to fill container */
+}
+
+.movie-info {
+  padding: 10px;
+}
+
+.movie-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.movie-details {
+  font-size: 0.8rem; /* Adjust font size as needed */
+  margin-bottom: 0; /* Remove default bottom margin */
+}
+
+.genre,
+.language,
+.duration,
+.rating {
+  font-weight: bold;
+  margin-right: 5px;
+}
